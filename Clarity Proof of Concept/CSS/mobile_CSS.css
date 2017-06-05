@@ -1,0 +1,156 @@
+@media (max-width: 576px) {
+    /*********************************************************/
+    /*                       Main                            */
+    /*********************************************************/
+    .document {
+        font-family: sans-serif;
+        width: 100vw;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    body {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    /*********************************************************/
+    /*                      Header                           */
+    /*********************************************************/
+    .header {
+        justify-content: space-between;
+        display: flex;
+        height: 60px;
+    }
+    .clarityLogo_Container {
+        padding: 1% 2%;
+        width: 50%;
+    }
+    .headerGradientBanner {
+        background: #ccc;
+        /* For browsers that do not support gradients */
+        background: -moz-linear-gradient(#eee, #666);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#eee, #666);
+        /* Standard syntax */
+        width: 100%;
+        height: 25px;
+        margin: 0 0 1% 0%;
+    }
+    .headerMenu {
+        position: absolute;
+        list-style: none;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        text-align: center;
+        margin-top: 82px;
+        padding: 0%;
+        height: 0;
+        overflow: hidden;
+        -webkit-transition: height 1s;
+        transition: height 1s;
+    }
+    .headerMenu li {
+        padding: 1%;
+        background-color: #db2;
+        border: 1px solid #000;
+    }
+    .menuElement {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+    .headerMobileMenu {
+        padding: 2% 5%;
+    }
+    /*********************************************************/
+    /*                       Body                            */
+    /*********************************************************/
+    .bannerImage {
+        width: 100%;
+    }
+    .body {
+        padding: 2% 5%;
+    }
+    .body_sideMenu {
+        width: 100%;
+        float: left;
+    }
+    /***************************************/
+    /*         Social Links Menu           */
+    /***************************************/
+    /*  */
+    .body_sideMenu_SocialMedia {
+        padding: 2% 0;
+        margin: 0%;
+    }
+    .SocialMedia_Icon_Container {
+        justify-content: space-between;
+        display: flex;
+        padding: 2%;
+        width: 50%;
+    }
+    .SocialMedia_Icon {
+        height: 30px;
+        border-radius: 1px;
+    }
+    .body_sideMenu_externalLinks {
+        padding: 2% 0;
+    }
+    .body_sideMenu_title {
+        font-size: 1.5em;
+    }
+    /***************************************/
+    /*        External Links Menu          */
+    /***************************************/
+    .externalLinks_list {
+        list-style: none;
+        padding-left: 3%;
+    }
+    .externalLinks_list li {
+        padding: 1% 0;
+    }
+    .externalLinks_list li:before {
+        content: "\2023 \0020";
+    }
+    /***************************************/
+    /*              Content                */
+    /***************************************/
+    .mainBody_section {
+        width: 100%;
+        float: left;
+        margin: 0 0 3% 0;
+    }
+    .mainBody_section_title {
+        padding: 0 0 2% 0;
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+    .employeeSection_image_container {
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
+    .employeeSection_image {
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
+    /*********************************************************/
+    /*                      Footer                           */
+    /*********************************************************/
+    .footer {
+        background-color: #ccc;
+        width: 100%;
+        margin: 0 0 1% 0%;
+        clear: both;
+        overflow: auto;
+    }
+    .footer_menu {
+        width: 40vw;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        display: flex;
+        padding: 2%;
+        font-size: .85em;
+    }
+}
